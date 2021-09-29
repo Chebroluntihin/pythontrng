@@ -5,8 +5,8 @@ if player1 == player2:
     print("It's a tie")
 
 elif player1 == 'rock':
-        if player2 == 'scissors':
-            print("Rock hits scissors. Player 1 win!")
+    if player2 == 'scissors':
+        print("Rock hits scissors. Player 1 win!")
 
 elif player1 == 'paper':
     if player2 == 'scissors':
@@ -29,3 +29,5 @@ elif player1 == 'paper':
         print("Paper covers rock. Player 1 wins!")
     else:
         print("Paper wins")
+else:
+    print("Invalid choice")

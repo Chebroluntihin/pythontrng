@@ -28,6 +28,6 @@ class timesheet(employee):
         print("status:",self.status)
 emp=employee("nithin","20871","20000","analyst")
 emp.display()
-time_sheet=timesheet("29-09-2021","8","Training","","Approved")
+time_sheet=timesheet("29-09-2021","8","Training","python training","Approved")
 time_sheet.display()
 
